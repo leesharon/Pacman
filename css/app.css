@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+
+.game-over-modal {
+  display: none;
+  position: absolute;
+  background-color: royalblue;
+  padding: 20px;
+  border-radius: 5%;
+  top: 18%;
+  left: 18%;
+}
+
+.game-win-modal {
+  display: none;
+  position: absolute;
+  background-color: royalblue;
+  padding: 20px;
+  border-radius: 5%;
+  top: 18%;
+  left: 18%;
+}
+
+h1 {
+  color: red
+}
+
+.board-container {
+  position: absolute;
+}
+
+.play-again {
+  padding: 20px;
+  border-radius: 5%;
+  background-color: violet;
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
+.play-again:hover {
+  cursor: pointer;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
